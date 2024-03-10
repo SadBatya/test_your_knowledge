@@ -1,0 +1,12 @@
+[
+  {
+    "text": "question1",
+    "variants": [
+      {"text": "JavaScript", "isCorrect": "true"},
+      {"text": "Python", "isCorrect": "false"},
+      {"text": "NodeJS", "isCorrect": "false"},
+      {"text": "MongoDB", "isCorrect": "false"}
+    ]
+    
+  }
+]
