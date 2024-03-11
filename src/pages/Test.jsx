@@ -7,8 +7,8 @@ export default function Test() {
     <Container>
       <Question />
       <div className="flex gap-10 mt-10 mb-10">
-        <Button text='Next question'/>
         <Button text='Prev question'/>        
+        <Button text='Next question'/>
       </div>
       <Button 
       text={'Main page'} 

@@ -12,6 +12,7 @@ export default function Question() {
         <Li text={'Вариант-4'}/>
 
 
+
         {/* <li className="flex mb-2 select-none border p-2 rounded-md items-center gap-3 cursor-pointer">
           <input className="cursor-pointer" type="radio" id="answer-1" name="answer"/>
           <label className="cursor-pointer" htmlFor="answer-1">Вариант 1</label>
