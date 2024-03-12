@@ -10,6 +10,7 @@ export default function ControlledCheckbox() {
 
   return (
     <Checkbox
+    color='success'
       className='w-6 h-4 mx-auto'
       checked={checked}
       onChange={handleChange}
