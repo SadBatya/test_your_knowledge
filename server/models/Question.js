@@ -1,8 +1,9 @@
-import mongoose from 'mongoose'
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 
-const questionSchema = new mongoose.Schema({
-  text:{
+const questionSchema = new Schema({
+  text: {
     type: String,
     required: true,
   },
@@ -14,12 +15,14 @@ const questionSchema = new mongoose.Schema({
       },
       isCorrect: {
         type: Boolean,
-        required: true
-      }
-    }
-  ]
-})
+        required: true,
+      },
+    },
+  ],
+});
+
 
 const Question = mongoose.model('Question', questionSchema)
+
 
 export default Question
