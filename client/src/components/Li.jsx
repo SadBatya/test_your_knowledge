@@ -3,7 +3,7 @@ import { useMatch } from 'react-router-dom'
 import CheckBox from './ControlledCheckbox'
 
 
-export default function Li({ text }) {
+export default function Li({ text, isCorrect }) {
   
   const isEditMode = useMatch('/edit')
 
@@ -15,7 +15,7 @@ export default function Li({ text }) {
           <label className="cursor-pointer" htmlFor="answer-1">{text}</label>
         </li>
           <div className='flex flex-col justify-center'>
-            <CheckBox />
+            <CheckBox isCorrect={isCorrect}/>
             <button><DeleteIcon /></button>
           </div>
       </div>
