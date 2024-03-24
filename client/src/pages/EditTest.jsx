@@ -45,9 +45,9 @@ export default function EditTest() {
           classname={'text-center '}
           onClick={() => navigate('/')}
         />
-        <Button 
-          text={'Save test'} 
-          classname={'hover:bg-green-800'}
+        <Button
+          text={'Save test'}
+          classname={'hover:bg-green-700'}
         />
       </div>
     </div>

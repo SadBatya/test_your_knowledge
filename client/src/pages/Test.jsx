@@ -24,6 +24,7 @@ export default function Test() {
 
   const disabledButtonStyle =
     'cursor-auto text-gray-200 hover:text-gray-200 hover:bg-white';
+
   return (
     <Container>
       {loading ? (
@@ -55,9 +56,13 @@ export default function Test() {
           onClick={() => setCurrentQuestionIndex(currentQuestionIndex + 1)}
           disabled={currentQuestionIndex === questions.length - 1}
         />
-        <Button 
+        <Button
           text='Finish test'
-          classname={currentQuestionIndex === questions.length - 1 ? 'display-block hover:bg-green-800' : 'hidden'}
+          classname={
+            currentQuestionIndex === questions.length - 1
+              ? 'display-block hover:bg-green-700'
+              : 'hidden'
+          }
         />
       </div>
       <Button

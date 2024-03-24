@@ -4,7 +4,6 @@ import CheckBox from './ControlledCheckbox'
 
 
 export default function Li({ text, isCorrect }) {
-  
   const isEditMode = useMatch('/edit')
 
   return (
